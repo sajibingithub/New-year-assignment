@@ -1,7 +1,115 @@
+
+*{
+    font-family: 'Roboto', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
+
+
+/* heading section style  */
 .header {
     display: flex;
     justify-content:right;
+    align-items: center;
     background-image: url(images/banner/banner3.png);
     height: 808px;
+    margin-bottom: 100px;
     
+}
+.heading-info {
+    width: 40%;
+    text-align:right;
+    padding-right: 150px;
+    color: #FFFFFF;
+}
+
+.heading-info-title{
+    font-weight: 700;
+    font-size: 50px;
+}
+.btn {
+    width: 160px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #005FAC;
+    border-radius: 5px;
+    border: 0;
+}
+
+/* section-common-style  */
+    .section-common-style {
+        margin-left: 150px;
+        margin-right: 200px;
+    }
+/* person section style  */
+.person-section {
+    display: flex;
+    margin-bottom: 100px;
+    
+}
+.person-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+}
+.person-info-heading{
+    padding-left: 25px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414;
+}
+.person-info-paragraph {
+    padding-left: 25px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+}
+
+.unordered-list{
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    list-style:none;
+}
+
+.check-color{
+    color:#16D887;
+}
+
+/* plan section style  */
+.plan-section-heading {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.plan-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.plan-name {
+    font-weight: 700;
+    font-size: 25px;
+}
+.plan-para{
+    font-weight: 500;
+    font-size: 20px;
+    color: #737272;
+}
+/* mindset section style  */
+.mindset-section {
+    background-image: url(images/watch.png);
+    border-radius: 10px;
+    height: 250px;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+/* footer section style  */
+footer {
+    display: flex;
 }
